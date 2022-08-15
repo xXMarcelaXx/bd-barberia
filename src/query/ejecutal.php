@@ -48,13 +48,9 @@ class ejecutal
                 echo"<div class='alert alert-danger'>";
                 echo"<h2 align='center'>Usuario o correo ya registrados</h2>";
                 echo"</div>";
-                header("refresh:2 ../../views/registro.php");
             }
             else
             {
-                echo"<div class='alert alert-success'>";
-                echo"<p align='center'><font color='green'>usuario registrado</font></p>";
-                echo"</div>";
             header("location: ../../views/iniciosesion.php");
             }      
             $cc->desconectarDb();
