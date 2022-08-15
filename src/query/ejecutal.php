@@ -55,7 +55,7 @@ class ejecutal
                 echo"<div class='alert alert-success'>";
                 echo"<p align='center'><font color='green'>usuario registrado</font></p>";
                 echo"</div>";
-            header("location:../../views/iniciosesion.php");
+            header("location: ../../views/iniciosesion.php");
             }      
             $cc->desconectarDb();
         }
