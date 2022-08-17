@@ -27,7 +27,7 @@ class ejecutal
         try
         {
             $pase=0;
-            $cc= new Database("barberia","root","admin");
+            $cc= new Database("barberia","root","1234");
             $objetopdo=$cc->getPDO();
 
             $query="SELECT* FROM cuenta WHERE nombre_usuario='$nombre_usuario'";
